@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_test_builder_user,test.builder.user,model_test_builder,base.group_user,1,0,0,0
+access_test_builder_fields_user,test.builder.fields.user,model_test_builder_fields,base.group_user,1,0,0,0
+access_test_builder_manager,test.builder.manager,model_test_builder,base.group_erp_manager,1,1,1,1
+access_test_builder_fields_manager,test.builder.fields.manager,model_test_builder_fields,base.group_erp_manager,1,1,1,1
